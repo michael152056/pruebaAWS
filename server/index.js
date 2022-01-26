@@ -7,7 +7,7 @@ const cors = require('cors');
 
 /* Configuraciones */
 app.set('nombreApp','Aplicación para manejo de gastos SRI');
-app.set('puerto',process.env.PORT || 4000);
+app.set('puerto',process.env.PORT || 3000);
 
 /* Middleware */
 app.use(morgan('dev'));
